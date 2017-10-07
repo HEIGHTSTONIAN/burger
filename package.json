@@ -1,0 +1,32 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HEIGHTSTONIAN/burger.git"
+  },
+  "author": "HEIGHTSTONIAN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HEIGHTSTONIAN/burger/issues"
+  },
+  "homepage": "https://github.com/HEIGHTSTONIAN/burger#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.1",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mysql": "^2.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
