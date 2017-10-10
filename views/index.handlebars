@@ -1,7 +1,12 @@
 <img src='./assets/img/burger.png'>
+<form id="burger-form">
+	<input type='text'>
+</form>
 <input type='text'>
 <ol>
+	{{#each burgers as |burger|}
 	<li>
-		{{name}}
-	<li>
+		{{burger.burger_name}}
+	</li>
+	{{/each}}
 </ol>
